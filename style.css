@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+span{
+    display: inline-block;
+}
+
+/* header */
+
+header{
+    border: 1px solid red;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-left ul li{
+    display: inline-block;
+}
+
+ul li:nth-child(4) a{
+    color: red;
+}
+
+.navbar-right{
+    display: flex;
+}
+
+/* hero */
+
+.hero{
+    border: 1px solid blue;
+    background-color: #23a7ed;
+    text-align: center;
+    color: white;
+}
+
+.hero > *{
+    margin: 20px;
+}
+
+.hero span::after{
+    content: '\f078';
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
+
+/* main */
+
+main{
+    border: 1px solid purple;
+    padding: 20px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    border: 1px solid pink;
+}
+
+.box-article{
+    min-width: 500px;
+    width: 70%;
+    border: 1px solid green;
+}
+
+aside{
+    min-width: 300px;
+    width: 30%;
+    border: 1px solid red;
+}
+
+.imageArticle{
+    width: 100%;
+    border: 1px solid blue;
+}
+
+.imageArticle img{
+    width: 100%;
+}
+
+.container .box-article .imageArticle{
+    width: 70%;
+}
+
+/* form */
+
+form{
+    border: 1px solid red;
+    min-width: 300px;
+    width: 30%;
+    float: right;
+}
+
+form div{
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+}
+
+form div:last-child{
+    width: 50%;
+    margin: 0 auto;
+}
+
+#form{
+    border: 1px solid rgb(106, 255, 68);
+    width: 100%;
+}
+
+#form::after{
+    content: "";
+    clear: both;
+    display: table;
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="navbar-left">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Colore</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Home</a></li>
+                </ul>
+            </div>
+            <div class="navbar-right">
+                <div class="search">
+                    <input type="text" placeholder="Cosa vuoi cercare?">
+                    <!-- icona -->
+                </div>
+                <div class="user">
+                    <button>Log In</button>
+                    <button>Sign Up</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <h1>Ciao questa è la prima lezione di ripasso</h1>
+        <span>Scopri di più</span>
+    </div>
+
+    <main>
+        <h2>Articoli</h2>
+        <div class="container">
+            <!-- Container > display: flex -->
+            <div class="box-article">
+                <section>
+                    <div class="imageArticle">
+                        <img src="img/articoli_giornale.jpg" alt="#">
+                    </div>
+                    <h3>Articolo 1</h3>
+                </section>
+                <section>
+                    <div class="imageArticle">
+                        <img src="img/articoli_giornale.jpg" alt="#">
+                    </div>
+                    <h3>Articolo 1</h3>
+                </section>
+                <section>
+                    <div class="imageArticle">
+                        <img src="img/articoli_giornale.jpg" alt="#">
+                    </div>
+                    <h3>Articolo 1</h3>
+                </section>
+            </div>
+        
+            <aside>
+                <h2>Mini Articoli</h2>
+                <div class="box-MiniArticle">
+                    <section>
+                        <div class="imageArticle">
+                            <img src="img/articoli_giornale.jpg" alt="#">
+                        </div>
+                        <h3>Mini Articolo 1</h3>
+                    </section>
+                </div>
+            </aside>
+        </div>
+
+        <section id="form">
+            <form>
+                <div>
+                    <label for="titolo">Inserisci il titolo</label>
+                    <input type="text" name="titolo" id="titolo" placeholder="Titolo" required>
+                </div>
+                <div>
+                    <label for="url">Inserisci url immagine</label>
+                    <input type="text" name="url" id="url" placeholder="Url Immagine" required>
+                </div>
+                <div>
+                    <label for="descrizione">Inserisci descrizione</label>
+                    <textarea name="descrizione" id="descrizione" cols="30" rows="10" required></textarea>
+                </div>
+                <div>
+                    <button id="button" type="submit">Invia</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <script src="https://kit.fontawesome.com/1c47a8c318.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
